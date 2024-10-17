@@ -73,7 +73,7 @@ const CSS_URL =
 app.use(
   "/api-docs",
   swaggerUI.serve,
-  swaggerUI.setup(swaggerDocs, { customCss: CSS_URL })
+  swaggerUI.setup(swaggerDocs, { customCssUrl: CSS_URL })
 );
 
 // Handle unhandled promise rejections
